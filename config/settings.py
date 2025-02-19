@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # global apps
+    'django_cleanup.apps.CleanupConfig',
     'corsheaders',
 
     # local apps
